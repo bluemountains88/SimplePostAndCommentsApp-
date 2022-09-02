@@ -31,6 +31,11 @@ app.post('/posts/:id/comments',(req,res)=> {
         }
     });
 
+    app.post('/events', (req,res) => {
+        console.log('Event received', req.body.type);
+        res.send({});
+    })
+
     res.status(201).send(comments);
 });
 
