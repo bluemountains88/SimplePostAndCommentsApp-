@@ -27,7 +27,8 @@ app.post('/posts/:id/comments',(req,res)=> {
         data: {
             id: commentId,
             content,
-            postId: req.params.id
+            postId: req.params.id,
+            status: 'pending'
         }
     });
 
