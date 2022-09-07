@@ -16,8 +16,8 @@
 
 #Docker for images
 
-#Kubernates -> yaml files to deployments and services
+#Kubernetes -> to handle and communicate docker's images -> yaml files to deployments and services
 
-#Skaffold to hadle pods
+#Skaffold to handle pods and changes 
 
 Feel free to make your own branch
